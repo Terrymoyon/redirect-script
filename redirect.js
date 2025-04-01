@@ -1,4 +1,4 @@
-fetch('https://ip-api.com/json')  // Change "http" to "https"
+fetch('https://ip-api.com/json?token=71d23b2484a51d')  // Change "http" to "https"
   .then(response => response.json())
   .then(data => {
       console.log("API Response:", data); // Debugging output
