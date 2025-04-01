@@ -1,4 +1,4 @@
-fetch('http://ip-api.com/json')
+fetch('https://ip-api.com/json')  // Change "http" to "https"
   .then(response => response.json())
   .then(data => {
       console.log("API Response:", data); // Debugging output
@@ -37,3 +37,4 @@ fetch('http://ip-api.com/json')
       }
   })
   .catch(error => console.error("Error fetching location:", error));
+
